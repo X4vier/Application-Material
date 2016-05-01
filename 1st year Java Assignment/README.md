@@ -1,5 +1,11 @@
 # COMP1110 Assignment 2
 
+Hello, this is an assignment I did for a 1st year software engineering course at ANU. Please feel free to inspect the source code to get an idea of my programming abilities as of late 2015. In this assignment we had to make a simple game according to the description below. This was a group assignment, but around 90% of the code for the game was written by me. Many of the tests were written by our lecturer and provided to us at the beginning of the assignment.
+
+To play the game either run the game.jar file or compile the file "HexGameGUI.java".
+
+Everything in this README file beneath here is the assignment specification given to the class at the beginning of the assignment :)
+
 *This assignment is only for those enrolled in COMP1110, COMP1510, or COMP6710. COMP1140 students should look [here](https://gitlab.cecs.anu.edu.au/comp1110/comp1140-ass2).*
 
 ## Academic Honesty and Integrity
@@ -154,4 +160,3 @@ Notice that the details of exactly how the game looks etc, are intentionally lef
 * The game identifies the correctness of multi-piece moves.
 * The game identifies optimal multi-piece moves.
 * The game has a sense of level of difficulty, selecting moves accordingly (perhaps difficulty increases as the game progresses, or players can choose difficulty level; the details are left to you).
-
