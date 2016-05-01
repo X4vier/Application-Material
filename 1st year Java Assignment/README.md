@@ -4,7 +4,7 @@ Hello, this is an assignment I did for a 1st year software engineering course at
 
 To play the game either run the game.jar file or compile the file "HexGameGUI.java".
 
-Everything in this README file beneath here is the assignment specification given to the class at the beginning of the assignment :)
+Everything in this README file beneath here is the assignment specification given to the class when the assignment was announced :)
 
 *This assignment is only for those enrolled in COMP1110, COMP1510, or COMP6710. COMP1140 students should look [here](https://gitlab.cecs.anu.edu.au/comp1110/comp1140-ass2).*
 
