@@ -295,7 +295,7 @@ public class HexGameGUI extends Application {
         if (gameBusy) return;
         gameBusy = true;
         hint.getChildren().clear();
-        PlaySound1();
+        // PlaySound1();
 
         numMoves ++;
         movesText.setText("             " + numMoves);
@@ -368,7 +368,7 @@ public class HexGameGUI extends Application {
 
         //clear all the groups (in-case stuff is leftover from last game)
         root.getChildren().clear();
-        PlaySound3();
+        // PlaySound3();
         pieces.getChildren().clear();
         board.getChildren().clear();
         goal.getChildren().clear();
@@ -743,7 +743,7 @@ public class HexGameGUI extends Application {
     }
 
     void mainMenu() {
-        PlaySound2();
+        // PlaySound2();
         root.getChildren().clear();
         pieces.getChildren().clear();
         board.getChildren().clear();
@@ -884,9 +884,12 @@ public class HexGameGUI extends Application {
     }
 
 
+    // Have not yet gotten sound to work properly on all hardware so all calls to PlaySound methods are commented
+    // out above.
+
     MediaPlayer p;
     void PlaySound1(){ //when the ball moved to the right place
-        String name = "assets/button-11.mp3";
+        String name = "1st year Java Assignment/assets/button-11.mp3";
         Media sound = new Media(new File(name).toURI().toString());
         p = new MediaPlayer(sound);
         p.setVolume(0.1);
@@ -894,7 +897,7 @@ public class HexGameGUI extends Application {
     }
 
     void PlaySound2(){ // when the ball moved to the wrong place
-        String name = "assets/button-13.mp3";
+        String name = "1st year Java Assignment/assets/button-13.mp3";
         Media sound = new Media(new File(name).toURI().toString());
         p = new MediaPlayer(sound);
         p.setVolume(0.1);
@@ -902,7 +905,7 @@ public class HexGameGUI extends Application {
     }
 
     void PlaySound3(){ //when the ball is moving
-        String name = "assets/button-14.mp3";
+        String name = "1st year Java Assignment/assets/button-14.mp3";
         Media sound = new Media(new File(name).toURI().toString());
         p = new MediaPlayer(sound);
         p.setVolume(0.1);
