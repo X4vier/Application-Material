@@ -2,7 +2,7 @@
 
 
 
-Thank you for viewing this repository :)
+Thanks for viewing this repository :)
 
 
 
